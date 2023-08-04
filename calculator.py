@@ -1,4 +1,5 @@
 x = float(input("Give me a number "))
 y = float(input("Give me another number "))
 
-print(x + y)
+z = round(x + y, 1)
+print(z)
